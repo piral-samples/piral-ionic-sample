@@ -1,0 +1,41 @@
+{
+  "name": "piral-ionic-sample",
+  "version": "1.0.0",
+  "description": "A simple Piral instance using Ionic components.",
+  "keywords": [
+    "piral"
+  ],
+  "dependencies": {
+    "@ionic/react": "^5.1.1",
+    "@ionic/react-router": "^5.1.1",
+    "ionicons": "^5.0.1",
+    "piral": "^0.11.5"
+  },
+  "scripts": {
+    "start": "piral debug-wp",
+    "build": "piral build-wp"
+  },
+  "app": "./src/index.html",
+  "pilets": {
+    "files": [],
+    "externals": [],
+    "scripts": {},
+    "validators": {},
+    "devDependencies": {},
+    "preScaffold": "",
+    "postScaffold": "",
+    "preUpgrade": "",
+    "postUpgrade": ""
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@types/react-router": "latest",
+    "@types/react-router-dom": "latest",
+    "piral-cli": "latest",
+    "piral-cli-webpack": "*",
+    "sass": "^1.26.7",
+    "typescript": "latest"
+  }
+}
